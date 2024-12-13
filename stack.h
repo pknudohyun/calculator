@@ -16,6 +16,7 @@ bool is_full(Stack *s);
 void push(Stack *s, Item i);
 Item pop(Stack *s);
 Item peek(Stack *s);
+int stack_size(Stack *stack);
 static void stack_underflow(void);
 static void reallocate(Stack * stack);
 #endif

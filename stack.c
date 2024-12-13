@@ -74,3 +74,6 @@ static void reallocate(Stack * stack)
 	stack->contents = tmp;
 }
 
+int stack_size(Stack *stack) {
+    return stack->top;
+}
